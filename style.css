@@ -85,13 +85,11 @@ button{
     width: 100%;
     background: hsl(245, 75%, 52%);
     color:white;
-    font-weight: 700;
     box-shadow: 1px 10px 51px -3px rgba(160, 147, 240, 0.75);
 }
 
 .cancel-order{
     text-align: center;
-    font-weight: 700;
     color:rgb(138, 138, 138)
 }
 
@@ -99,7 +97,24 @@ button{
 button,
 a{
     cursor:pointer;
+    font-weight: 700;
 }
+
+a:hover{
+   color:rgb(149,113,255);
+   text-decoration: none;
+}
+
+button:hover{
+    background: rgb(144, 106, 255);
+    font-weight: 900;
+}
+
+.cancel-order:hover{
+    color:black;
+    font-weight: 900;
+}
+
 
 @media screen and (max-width:390px) {
     .plan-container .plan{
